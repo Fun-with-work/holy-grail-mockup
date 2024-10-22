@@ -101,17 +101,13 @@
   }
   
   .article {
-    resize: both;
-    overflow: auto;
     background-color: #bccbde;
     display: grid;
     gap: 15px;
-    padding: 4px;
     border: 1px solid grey;
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: repeat (auto-fit, minmax(250px, 1fr));
-    /* grid-template-columns: repeat(4, 1fr); */
     grid-template-rows: repeat(3, 1fr);
     grid-auto-flow: column;
   }
@@ -128,14 +124,13 @@
     color: black;
     text-align: center;
     height: 200px;
-    width: 
-    /* grid-column: span 1; */
   }
   
   .card p {
     color: black;
     font-weight: normal;
     font-size: 14px;
+    padding: 4px;
   }
   
   .card .title {
